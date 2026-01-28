@@ -8,7 +8,7 @@ import { SessionService } from './services/shared/session.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, UserListComponent, HttpClientModule, LoginComponent],
+  imports: [RouterOutlet, UserListComponent, LoginComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
